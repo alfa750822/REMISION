@@ -45,7 +45,7 @@ h1 {
 /* table */
 table {
     font-size: 100%;
-    table-layout: fixed;
+    table-layout: auto;
     width: max-content;
     border-collapse: separate; /* Añadido para evitar problemas de bordes en algunas situaciones */
 }
@@ -194,7 +194,7 @@ table.inventory td {
     text-align: right;
 }
 
-table { font-size: 75%; table-layout: fixed; width: auto; }
+table { font-size: 75%; table-layout: auto; width: auto; }
 table { border-collapse: collapse; border-spacing: 2px; }
 th, td { border-width: 1px; padding: 0.5em; position: sticky; text-align: right; }
 th, td { border-radius: 0.25em; border-style: solid; }
