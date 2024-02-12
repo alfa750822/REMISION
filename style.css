@@ -186,12 +186,14 @@ table.meta td {
 
 /* table items */
 table.inventory th {
+    width: auto;
     font-weight: bold;
     text-align: center;
 }
 
 table.inventory td {
-    text-align: right;
+   width: auto;
+    text-align: end;
 }
 
 table { font-size: 75%; table-layout: auto; width: auto; }
